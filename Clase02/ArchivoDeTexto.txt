@@ -1,3 +1,5 @@
 Link de este repo: https://github.com/gfrey-utn/JavaDevNeo
 
-3) No está porque add y commit sólo impactan cambios hechos localmente, en el repositorio local de nuestra PC. Si se quiere que se vean reflejados en GitHub/Internet, hay que subir los commits nuevos hechos localmente usando git push.
+3) No está porque add y commit sólo impactan cambios hechos localmente, en el repositorio local de nuestra PC. Si se quiere que se vean reflejados en GitHub/Internet, hay que subir los commits nuevos hechos localmente usando "git push".
+
+5) No está porque al editar desde el sitio de GitHub, el commit se realiza sólo ahí. Para sincronizar los cambios con nuestro repositorio local, debemos descargarlos utilizando "git pull".
