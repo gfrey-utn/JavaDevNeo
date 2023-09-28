@@ -1,5 +1,7 @@
 ﻿Link de este repo: https://github.com/gfrey-utn/JavaDevNeo
 
-3) No está porque add y commit sólo impactan cambios hechos localmente, en el repositorio local de nuestra PC. Si se quiere que se vean reflejados en GitHub/Internet, hay que subir los commits nuevos hechos localmente usando git push.
+3) No está porque add y commit sólo impactan cambios hechos localmente, en el repositorio local de nuestra PC. Si se quiere que se vean reflejados en GitHub/Internet, hay que subir los commits nuevos hechos localmente usando "git push".
 
-5) Acá escribo otra cosa para generar un conflicto entre los repositorios local y remoto.
+5) No está porque al editar desde el sitio de GitHub, el commit se realiza sólo ahí. Para sincronizar los cambios con nuestro repositorio local, debemos descargarlos utilizando "git pull".
+
+8) Ambos repositorios, el local y el remoto, tenían un commit nuevo no impactado en el otro, tal que ambos modificaron el mismo archivo. Entonces, cuando llega el momento de sincronizar ambos mediante un "git pull" o un "git push", Git detecta un conflicto y obliga a modificar el archivo en conflicto para solucionar el asunto y ver con cuál de las dos versiones se queda. Recién modificado el archivo por última vez, es que se permitirá hacer un commit nuevo definitivo, y finalmente se sincronizarán los repositorios (el nombre del commit avisará que hubo un merge entre distintas "ramas").
