@@ -1,1 +1,3 @@
-Un texto cualquiera para probar un commit.
+Link de este repo: https://github.com/gfrey-utn/JavaDevNeo
+
+3) No está porque add y commit sólo impactan cambios hechos localmente, en el repositorio local de nuestra PC. Si se quiere que se vean reflejados en GitHub/Internet, hay que subir los commits nuevos hechos localmente usando git push.
